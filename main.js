@@ -20,7 +20,7 @@ let speechData = async () => {
     let comingsAndGoings1 = groupedData.comingsAndGoings;
     let friendsAndLovers2 = groupedData.friendsAndLovers;
     let timeAndSpace3 = groupedData.timeAndSpace;
-    let foodAndDrink4 = groupedData.foodAndDrink;
+    let bodyAndHealth4 = groupedData.foodAndDrink;
     let mistakesAndFailures5 = groupedData.mistakesAndFailures;
     let feelingsAndMood6 = groupedData.feelingsAndMood;
     let familyAndChildren7 = groupedData.familyAndChildren;
@@ -31,7 +31,7 @@ let speechData = async () => {
     let comingsAndGoingsButton1 = document.querySelector('#premiere');
     let friendsAndLoversButton2 = document.querySelector('#deuxieme');
     let timeAndSpaceButton3 = document.querySelector('#troisieme');
-    let foodAndDrinkButton4 = document.querySelector('#quatrieme');
+    let bodyAndHealthButton4 = document.querySelector('#quatrieme');
     let mistakesAndFailuresButton5 = document.querySelector('#cinquieme');
     let feelingsAndMoodButton6 = document.querySelector('#sixieme');
     let familyAndChildrenButton7 = document.querySelector('#septieme');
@@ -56,6 +56,8 @@ comingsAndGoingsButton1.addEventListener('click', function(){
     for(let i = 0; i < comingsAndGoings1.length; i++){
     paragraph1.innerText = `Figure of Speech:  ${comingsAndGoings1[i].figureOfSpeech}`
     paragraph2.innerText = `Translation:  ${comingsAndGoings1[i].translation}`
+    
+
     console.log(comingsAndGoings1[i].figureOfSpeech)
     console.log(comingsAndGoings1[i].translation)
 };
@@ -79,12 +81,12 @@ timeAndSpaceButton3.addEventListener('click', function(){
 };
 });
 
-foodAndDrinkButton4.addEventListener('click', function(){
-    for(let i = 0; i < foodAndDrink4.length; i++){
-    paragraph1.innerText = `Figure of Speech:  ${foodAndDrink4[i].figureOfSpeech}`
-    paragraph2.innerText = `Translation:  ${foodAndDrink4[i].translation}`
-    console.log(foodAndDrink4[i].figureOfSpeech)
-    console.log(foodAndDrink4[i].translation)
+bodyAndHealthButton4.addEventListener('click', function(){
+    for(let i = 0; i < bodyAndHealth4.length; i++){
+    paragraph1.innerText = `Figure of Speech:  ${bodyAndHealth4[i].figureOfSpeech}`
+    paragraph2.innerText = `Translation:  ${bodyAndHealth4[i].translation}`
+    console.log(bodyAndHealth4[i].figureOfSpeech)
+    console.log(bodyAndHealth4[i].translation)
 };
 });
 

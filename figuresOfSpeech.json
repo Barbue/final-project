@@ -4,6 +4,7 @@
     "category": "comingsAndGoings",
     "figureOfSpeech": "Comment ca se plume(lit.: How is it plucking?)",
     "translation": "How are you? How are things?"
+    
 },
 
 {
@@ -19,9 +20,9 @@
 },
 
 {
-    "category": "foodAndDrink",
-    "figureOfSpeech": "Baigne",
-    "translation": "A corn or wheat cake fried in deep fat."
+    "category": "bodyAndHealth",
+    "figureOfSpeech": "Avoir des fesses de moiselle(lit.: To have mosquitohawk buttocks)",
+    "translation": "To have a thin buttocks, a skinny behind."
 },
 
 {
@@ -58,7 +59,565 @@
     "category": "lagniappe",
     "figureOfSpeech": "Avoir tous leur tetes dans le meme bonnet.(lit.: To have all their heads in the same bonnet.)",
     "translation": "Of several people to think alike; to be in complete agreement."
-}
+},
+
+{
+    "category": "comingsAndGoings",
+    "figureOfSpeech": "Comment le cabri apporte sa queue?(lit.:how is the goat carrying his tail?)",
+    "translation": "How are you? How are things?"
+    
+},
+
+{
+    "category": "friendsAndLovers",
+    "figureOfSpeech": "Casser sa vaiselle.(lit.: To break one's dishes.)",
+    "translation": "1. To break up(of a couple or household). 2. To fall down and hurt oneself."
+},
+
+{
+    "category": "timeAndSpace",
+    "figureOfSpeech": "Ca c'etait quand Fido etait petit.(lit.: That was when Fido was small.)",
+    "translation": "That was a long time ago."
+},
+
+{
+    "category": "bodyAndHealth",
+    "figureOfSpeech": "Avoir des jambes comme des pattes de moqueur.(lit.: To have mockingbird legs.)",
+    "translation": "To have thin legs."
+},
+
+{
+    "category": "mistakesAndFailures",
+    "figureOfSpeech": "A la va vite.(lit.: To go quickly style.)",
+    "translation": "Quickly and not very well."
+},
+
+{
+    "category": "feelingsAndMood",
+    "figureOfSpeech": "Attraper une touche.(lit.: To catch a touch.)",
+    "translation": "To get tired out, worn out."
+},
+
+{
+    "category": "familyAndChildren",
+    "figureOfSpeech": "Baton de vieillesse.(lit.: Old age stick.)",
+    "translation": "A person who can be depended on for help in one's old age."
+},
+
+{
+    "category": "nature",
+    "figureOfSpeech": "Balai du ciel.(lit.: Broom of the sky.)",
+    "translation": "A northwest wind."
+},
+
+{
+    "category": "abundanceAndExcess",
+    "figureOfSpeech": "Arretez votre tactac.(lit.: Stop your popcorn.)",
+    "translation": "Stop all the talking!"
+},
+
+{
+    "category": "lagniappe",
+    "figureOfSpeech": "Ca coupe comme une jambe de chien.(lit.: That cuts like a dog's leg.)",
+    "translation": "It doesn't cut; it is not very sharp."
+},
+{
+    "category": "comingsAndGoings",
+    "figureOfSpeech": "Comment ca se brasse?(lit.: How are things stirring up?)",
+    "translation": "How are you? How are things going?"
+    
+},
+
+{
+    "category": "friendsAndLovers",
+    "figureOfSpeech": "C'est comme le feu et l'eau(lit.: They're like fire and water",
+    "translation": "They're always quarreling/fighting."
+},
+
+{
+    "category": "timeAndSpace",
+    "figureOfSpeech": "Il doit etre apres manger du patasa.(lit.: He must be eating sunfish.)",
+    "translation": "He's taking a long time."
+},
+
+{
+    "category": "bodyAndHealth",
+    "figureOfSpeech": "Avoir des oreilles comme un taxi avec les deux portes ouvertes.(lit.: To have ears like a taxi with both doors open.)",
+    "translation": "To have big ears."
+},
+
+{
+    "category": "mistakesAndFailures",
+    "figureOfSpeech": "Vider la mer avec un baril defonce.(lit.: To empty the sea with a broken barrel.)",
+    "translation": "To do a task which requires great effort but accomplishes nothing."
+},
+
+{
+    "category": "feelingsAndMood",
+    "figureOfSpeech": "Avoir la cache.(lit.: To have the hiding place.)",
+    "translation": "To be in great fear."
+},
+
+{
+    "category": "familyAndChildren",
+    "figureOfSpeech": "Enfant de deuxieme lit.(lit.: Child of a second bed.)",
+    "translation": "Child of a second marriage."
+},
+
+{
+    "category": "nature",
+    "figureOfSpeech": "Mouiller jusqu'a les chiens buvaient debout.(lit.: To rain until dogs drank standing up.)",
+    "translation": "To rain very much."
+},
+
+{
+    "category": "abundanceAndExcess",
+    "figureOfSpeech": "Avoir un bon coup de fourchette.(lit.: To have a good fork technique.)",
+    "translation": "To be a big eater, a glutton."
+},
+
+{
+    "category": "lagniappe",
+    "figureOfSpeech": "Une grenouille de benitier.(lit.: A baptismal font frog.)",
+    "translation": "A woman who volunteers often at church."
+},
+
+{
+    "category": "comingsAndGoings",
+    "figureOfSpeech": "Mieux que ca et les pretres seraient jaloux.(lit.: Any better than this, and the priests would be jealous.)",
+    "translation": "Things are going very well."
+    
+},
+
+{
+    "category": "friendsAndLovers",
+    "figureOfSpeech": "Comme des patates et des puces.(lit.: Like potatoes and fleas.",
+    "translation": "People or things which go together naturally."
+},
+
+{
+    "category": "timeAndSpace",
+    "figureOfSpeech": "Au diable bouilli.(lit.: To the boiled devil.)",
+    "translation": "In a distant and unknown place."
+},
+
+{
+    "category": "bodyAndHealth",
+    "figureOfSpeech": "Avoir un crapaud dans la gorge(lit.: To have a toad in the throat)",
+    "translation": "To be hoarse."
+},
+
+{
+    "category": "mistakesAndFailures",
+    "figureOfSpeech": "Tourner en eau de boudin.(lit.: To turn into boudin water.)",
+    "translation": "To become insignificant."
+},
+
+{
+    "category": "feelingsAndMood",
+    "figureOfSpeech": "Avoir les yeux egares.(lit.: To have wild eyes.)",
+    "translation": "To be lost or disoriented."
+},
+
+{
+    "category": "familyAndChildren",
+    "figureOfSpeech": "Un petit tonnerre.(lit.: A little thunder.)",
+    "translation": "A highly active child."
+},
+
+{
+    "category": "nature",
+    "figureOfSpeech": "Les pierres sont apres bruler.(lit.: The rocks are burning.)",
+    "translation": "There is a mist or vapor rising from the ground."
+},
+
+{
+    "category": "abundanceAndExcess",
+    "figureOfSpeech": "Avoir le diable dans le corps.(lit.: To have the devil in one's body.)",
+    "translation": "To be mischievous, hyperactive."
+},
+
+{
+    "category": "lagniappe",
+    "figureOfSpeech": "Un reve de poulet.(A chicken's dream.)",
+    "translation": "An unrealistic idea or plan."
+},
+
+{
+    "category": "comingsAndGoings",
+    "figureOfSpeech": "Quoi ca dit?(lit.: What do you say?)",
+    "translation": "What's up? What's new? What's happening?"
+    
+},
+
+{
+    "category": "friendsAndLovers",
+    "figureOfSpeech": "Faire chaudiere ensemble.(lit.: To make a cooking pot together.)",
+    "translation": "To get married."
+},
+
+{
+    "category": "timeAndSpace",
+    "figureOfSpeech": "Le chien qui va a la chasse perd sa place.(lit.: The dog who goes hunting loses its place.)",
+    "translation": "If you leave your place, someone will usurp/take it."
+},
+
+{
+    "category": "bodyAndHealth",
+    "figureOfSpeech": "Avoir un nez comme un bec.(lit.: To have a nose like a beak.)",
+    "translation": "To have a long, pointed nose."
+},
+
+{
+    "category": "mistakesAndFailures",
+    "figureOfSpeech": "Pondre un oeuf.(lit.: To lay an egg.)",
+    "translation": "1. To mess up. 2. To say something unbelievable."
+},
+
+{
+    "category": "feelingsAndMood",
+    "figureOfSpeech": "Avoir un tour de lune.(lit.: To have a moon spell.)",
+    "translation": "To be in a contrary mood."
+},
+
+{
+    "category": "familyAndChildren",
+    "figureOfSpeech": "Jeu de chien tourne en bataille.(lit.: Dog's game becomes a fight.)",
+    "translation": "Horseplay can lead to an argument."
+},
+
+{
+    "category": "nature",
+    "figureOfSpeech": "Un vent a decorner un boeuf.(lit.: A wind to dehorn a bull.)",
+    "translation": "A very strong wind."
+},
+
+{
+    "category": "abundanceAndExcess",
+    "figureOfSpeech": "Etouffeur de canards morts.(lit.: A strangler of dead ducks.)",
+    "translation": "Someone who overdoes things, exaggerates his actions."
+},
+
+{
+    "category": "lagniappe",
+    "figureOfSpeech": "Se coller un temps.(lit.: To stick oneself a time.)",
+    "translation": "To have a good time."
+},
+
+{
+    "category": "comingsAndGoings",
+    "figureOfSpeech": "C'est l'heure qu'on leve la patte(lit.: It's time to raise a foot",
+    "translation": "It's time to go."
+    
+},
+
+{
+    "category": "friendsAndLovers",
+    "figureOfSpeech": "Sauter la manche a balai.(lit.: To jump the broomstick.)",
+    "translation": "To live together without being married."
+},
+
+{
+    "category": "timeAndSpace",
+    "figureOfSpeech": "Tous les tremblements de terre.(lit.: Every earthquake.)",
+    "translation": "Every once in a while; infrequently."
+},
+
+{
+    "category": "bodyAndHealth",
+    "figureOfSpeech": "Ses cheveux sont tous chien-fou.(lit.: his/her hair are all dog crazy.)",
+    "translation": "His/her hair are disheveled."
+},
+
+{
+    "category": "mistakesAndFailures",
+    "figureOfSpeech": "Laisser(quelqu'un) en plan.",
+    "translation": "To abandon(a friend)."
+},
+
+{
+    "category": "feelingsAndMood",
+    "figureOfSpeech": "Fache comme un chien enrage.(lit.: As angry as a rabid dog.)",
+    "translation": "Very very angry."
+},
+
+{
+    "category": "familyAndChildren",
+    "figureOfSpeech": "A peche de la bande.(lit.: The peach of the group.)",
+    "translation": "1. The prettiest daughter of the family. 2. The prettiest girl of the group."
+},
+
+{
+    "category": "nature",
+    "figureOfSpeech": "Vents de Careme.(lit.: Lenten winds)",
+    "translation": "Spring/March winds."
+},
+
+{
+    "category": "abundanceAndExcess",
+    "figureOfSpeech": "Defonceur de portes ouvertes.(lit.: One who breaks down open doors.)",
+    "translation": "A rough, brutish person; one who uses excess force."
+},
+
+{
+    "category": "lagniappe",
+    "figureOfSpeech": "Tamiser la vie.(lit.: To sift life.)",
+    "translation": "To get the most out of life; to live life to its fullest."
+},
+
+{
+    "category": "comingsAndGoings",
+    "figureOfSpeech": "On a plein d'huile dans la lampe(lit.: We still have plenty of oil in the lamp.)",
+    "translation": "You don't have to go yet; it's still early."
+    
+},
+
+{
+    "category": "friendsAndLovers",
+    "figureOfSpeech": "Se casser le cou.(lit.: To break one's neck.)",
+    "translation": "To get married."
+},
+
+{
+    "category": "timeAndSpace",
+    "figureOfSpeech": "On peut pas y mettre une epingle.(lit.: You can't fit a pin in there.)",
+    "translation": " There is no more room; the space in question is very crowded."
+},
+
+{
+    "category": "bodyAndHealth",
+    "figureOfSpeech": "Il faut qu'il se tourne pour faire un ombrage.(lit.: He has to turn(sideways) to make a shadow.)",
+    "translation": "He is very thin."
+},
+
+{
+    "category": "mistakesAndFailures",
+    "figureOfSpeech": "Lacher la patate.(lit.: To drop the potato.)",
+    "translation": "1. To give up. 2. To mess up."
+},
+
+{
+    "category": "feelingsAndMood",
+    "figureOfSpeech": "Faire son boudin.(lit.: To make one's boudin.)",
+    "translation": "To pout."
+},
+
+{
+    "category": "familyAndChildren",
+    "figureOfSpeech": "Un petit rien tout neuf.(lit.: A brand new little nothing.",
+    "translation": "A nonsensical response used to avoid answering questions."
+},
+
+{
+    "category": "nature",
+    "figureOfSpeech": "Maison de crapaud.(lit.: Toad house.)",
+    "translation": "Mushroom;toadstool."
+},
+
+{
+    "category": "abundanceAndExcess",
+    "figureOfSpeech": "En patate.(lit.: In potatoes.)",
+    "translation": "In excess; in great quantity."
+},
+
+{
+    "category": "lagniappe",
+    "figureOfSpeech": "le sirop et biscuits cassent pas egal.(lit.: The syrup and the biscuits don't even out.)",
+    "translation": "Vengeance never evens out/rights a wrong. "
+},
+
+{
+    "category": "comingsAndGoings",
+    "figureOfSpeech": "Mieux que ca serait un enterrement(lit.: Any better than this would be a funeral.)",
+    "translation": "Things are going very well."
+    
+},
+
+{
+    "category": "friendsAndLovers",
+    "figureOfSpeech": "C'est le faim et la soif.(lit.: It's hunger and thirst.)",
+    "translation": "One is as bad as the other."
+},
+
+{
+    "category": "timeAndSpace",
+    "figureOfSpeech": "La piste est seche.(lit.: The path is dry.)",
+    "translation": "No one is there. The place is empty."
+},
+
+{
+    "category": "bodyAndHealth",
+    "figureOfSpeech": "Membre comme une tortue de rosee.(lit.: Built like a dew turtle.)",
+    "translation": "Husky; muscular."
+},
+
+{
+    "category": "mistakesAndFailures",
+    "figureOfSpeech": "Goudronner.(lit.: To tar up.)",
+    "translation": "To mess up."
+},
+
+{
+    "category": "feelingsAndMood",
+    "figureOfSpeech": "Mettre de l'eau dans son vin.(lit.: To put water in one's wine.)",
+    "translation": "To calm down; to temper one's remarks, particularly when angry."
+},
+
+{
+    "category": "familyAndChildren",
+    "figureOfSpeech": "La fleur de lis.(lit.: Iris)",
+    "translation": "The seventh daughter of a family."
+},
+
+{
+    "category": "nature",
+    "figureOfSpeech": "Chandelle de glace.(lit.: Ice candle.)",
+    "translation": "Icicle."
+},
+
+{
+    "category": "abundanceAndExcess",
+    "figureOfSpeech": "Gagner le sucre.(lit.: To win sugar/candy.)",
+    "translation": "To show oneself as outstanding or superior; to win the prize."
+},
+
+{
+    "category": "lagniappe",
+    "figureOfSpeech": "La roue tourne.(lit.: The wheel turns.)",
+    "translation": "Things change."
+},
+
+{
+    "category": "comingsAndGoings",
+    "figureOfSpeech": "Quand on parle de la bete, on voit sa tete(lit.: When you talk about the beast, you see its head)",
+    "translation": "Speak of the devil."
+    
+},
+
+{
+    "category": "friendsAndLovers",
+    "figureOfSpeech": "Donner son capot(a quelqu'un)(lit.: To give(someone) his jacket/coat).",
+    "translation": "To reject or break up with a suitor."
+},
+
+{
+    "category": "timeAndSpace",
+    "figureOfSpeech": "Les finfifonds.(lit.: In the deepest, farthest place.)",
+    "translation": "In a very remote place; the boondocks."
+},
+
+{
+    "category": "bodyAndHealth",
+    "figureOfSpeech": "En ceinture.(lit.: Belted.)",
+    "translation": "Pregnant."
+},
+
+{
+    "category": "mistakesAndFailures",
+    "figureOfSpeech": "Lacher la baratte.(lit.: To drop the churn.)",
+    "translation": "To give up."
+},
+
+{
+    "category": "feelingsAndMood",
+    "figureOfSpeech": "Faire un gombo de babines.(lit.: To make a gumbo of lower lips.)",
+    "translation": "To sulk, usually with others; to have a pity party."
+},
+
+{
+    "category": "familyAndChildren",
+    "figureOfSpeech": "Petit gateau.(lit.: Little cake/cookie)",
+    "translation": "Favorite child."
+},
+
+{
+    "category": "nature",
+    "figureOfSpeech": "Temps boucane.(lit.: Smoky weather.)",
+    "translation": "Gloomy, overcast weather."
+},
+
+{
+    "category": "abundanceAndExcess",
+    "figureOfSpeech": "Pese bouton, paie couillon.(lit.: Push button, pay fool.)",
+    "translation": "Fancy gadgets are not worth the money one pays for them."
+},
+
+{
+    "category": "lagniappe",
+    "figureOfSpeech": "Ca creve les yeux.(lit.: That hurts one's eyes.)",
+    "translation": "That's obvious."
+},
+
+{
+    "category": "comingsAndGoings",
+    "figureOfSpeech": "Est-ce que t'amenes la pluie?(Are you bringing rain with you?",
+    "translation": "Long time, no see."
+    
+},
+
+{
+    "category": "friendsAndLovers",
+    "figureOfSpeech": "Etre a dos.(lit.: To be back to back.)",
+    "translation": "To be on bad terms in a relationship."
+},
+
+{
+    "category": "timeAndSpace",
+    "figureOfSpeech": "Au large(lit.: Out to sea)",
+    "translation": "1. Out on the prairie. 2. Far away."
+},
+
+{
+    "category": "bodyAndHealth",
+    "figureOfSpeech": "Crapaud(de nez).(lit.: Nose toad,)",
+    "translation": "A booger."
+},
+
+{
+    "category": "mistakesAndFailures",
+    "figureOfSpeech": "Faire une coche mal taillee.(lit.: To make a badly carved notch.)",
+    "translation": "To make a big mistake."
+},
+
+{
+    "category": "feelingsAndMood",
+    "figureOfSpeech": "Frais/fraiche comme un lapin.(As fresh as a rabbit.)",
+    "translation": "Invigorated; ready to go; fiesty; energetic."
+},
+
+{
+    "category": "familyAndChildren",
+    "figureOfSpeech": "Un tonnerre a la voile.(lit.: A thunderbolt in the sail.)",
+    "translation": "A noisy, unruly person, typically a child."
+},
+
+{
+    "category": "nature",
+    "figureOfSpeech": "Mouiller jusqu'a les vaches beuglent.(lit.: To rain to the point where the cows moo.)",
+    "translation": "To rain a lot."
+},
+
+{
+    "category": "abundanceAndExcess",
+    "figureOfSpeech": "Etre a rang d'oignons.(lit.: To be in rows of onions.)",
+    "translation": "To be assembled in a large crowd."
+},
+
+{
+    "category": "lagniappe",
+    "figureOfSpeech": "Ca coupe la langue de ma grand-mere.(lit.: That cuts like my grandmother's tongue.)",
+    "translation": "It is very sharp(literally and figuratively."
+},
+
+
+
+
+
+
+
+
+
+
 
 
 
