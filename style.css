@@ -1,0 +1,100 @@
+
+/* main{
+    text-align: middle;
+} */
+
+
+main{
+
+   
+    border-radius: 10px;
+    width: 78%;
+    margin-top: -250px; 
+    font-weight: 700;
+    margin-left: 115px; 
+    border: 5px solid brown;
+    text-align: center;
+    background-color: aqua;
+    border-style: groove;
+
+
+    
+    } 
+
+  
+   nav{
+    border-right: 2px; 
+    width: 100px;
+    height: auto;
+    /* border-right: solid black; */
+    scrollbar-width: normal;
+ 
+    
+}  
+
+p {
+    
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+ h1{
+  border: solid black;
+  text-align: center;
+  font-size: 150%;
+  border-radius: 5px;
+  /* width: 200%; */
+  background-color: rgb(143, 143, 226);
+  margin-bottom: 3px;
+
+ }
+
+ body{
+    background-color: lightblue;
+
+ }
+
+
+
+
+
+
+
+
+/* 
+
+html{
+    scrollbar-width: normal;
+    scrollbar-color: red blue;
+
+}
+
+body{
+    background-color: lightblue;
+    color: brown;
+}
+nav{
+    border-right: 2px;
+    width: 100px;
+    border-right: solid black;
+    scrollbar-width: normal;
+    scrollbar-color: red blue;
+    
+}
+
+/* button{
+    /* border-style: groove; */
+    /* background-color: royalblue;border-color: black;
+    font-weight: bold;
+   
+    
+    text-align: center;
+    display: inline-flex;
+     */
+   
+    
+   
+   
+   
+
+   
