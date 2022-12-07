@@ -5,24 +5,20 @@
 
 
 main{
-
-   
+    
     border-radius: 10px;
     width: 78%;
-    margin-top: -250px; 
+    margin-top: -250px;
     font-weight: 700;
-    margin-left: 115px; 
+    margin-left: 130px; 
     border: 5px solid brown;
     text-align: center;
     background-color: aqua;
     border-style: groove;
-
-
-    
-    } 
+} 
 
     .scroll-div{
-        width: 120px;
+        width: 115px;
         height: 300px;
         overflow: hidden;
         overflow-y: scroll; 
@@ -30,6 +26,7 @@ main{
 
 
    /* nav{
+   
     border-right: 2px;  
     width: 50px;
     
@@ -38,6 +35,7 @@ main{
 p {
     
     margin-bottom: 10px;
+   
     text-align: center;
   }
 
@@ -72,10 +70,8 @@ p {
 #dixieme {font-size: 50%};
   */
 
-  button{
-    text-size-adjust: 50%;
-  }
- 
+   
+
 
 
 
