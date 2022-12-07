@@ -21,23 +21,19 @@ main{
     
     } 
 
-  
-   nav{
+    .scroll-div{
+        width: 120px;
+        height: 300px;
+        overflow: hidden;
+        overflow-y: scroll; 
+    }
+
+
+   /* nav{
     border-right: 2px;  
     width: 50px;
     
-    /* height: 200px; */
-    /* vertical-align: middle; */
-  
-    /* border-right: solid black; */
-    
-
-
-
-  
- 
-    
-}  
+}   */
 
 p {
     
@@ -57,14 +53,28 @@ p {
   border-style: groove;
   border-color: brown;
 
- }
+ };
 
  body{
     background-color: lightblue;
     background-image: url('https://acadie.cheminsdelafrancophonie.org/wp-content/uploads/drapeau-1.jpg');
-}
+};
 
- 
+#premiere1 {font-size: 50%};
+/* #deuxieme {font-size: 50%};
+#troisieme {font-size: 50%};
+#quatrieme {font-size: 50%};
+#cinquieme {font-size: 50%};
+#sixieme {font-size: 50%};
+#septieme {font-size: 50%};
+#huitieme {font-size: 50%};
+#neuvieme {font-size: 50%};
+#dixieme {font-size: 50%};
+  */
+
+  button{
+    text-size-adjust: 50%;
+  }
  
 
 
