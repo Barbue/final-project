@@ -1,19 +1,20 @@
 
-/* main{
-    text-align: middle;
-} */
+
+
 
 
 main{
     
     border-radius: 10px;
-    width: 78%;
-    margin-top: -250px;
+    /* width: 78%; */
+    margin-top: -300px;
     font-weight: 700;
-    margin-left: 130px; 
+    margin-left: 130px;
+    margin-right: 15px; 
     border: 5px solid brown;
     text-align: center;
-    background-color: aqua;
+    background-color: black;
+    color: white;
     border-style: groove;
 } 
 
@@ -47,18 +48,132 @@ p {
   /* width: 200%; */
   background-color: rgb(143, 143, 226);
   margin-bottom: 3px;
-  background-image: url('https://acadie.cheminsdelafrancophonie.org/wp-content/uploads/drapeau-1.jpg');
+  background-image: url('Image file/drapeau-1.jpg');
   border-style: groove;
   border-color: brown;
-
- };
+  color: black;
+}
 
  body{
     background-color: lightblue;
-    background-image: url('https://acadie.cheminsdelafrancophonie.org/wp-content/uploads/drapeau-1.jpg');
-};
+    background-image: url('Image file/drapeau-1.jpg');  
+}
 
-#premiere1 {font-size: 50%};
+  /* #audio{
+    margin-top: 0px;
+    margin-left: 150px;
+    font-size: 35%;
+    position: sticky;
+}  */
+
+button{
+    background-color: black;
+    color: white;
+    /* border-style: groove;
+  border-color: brown;
+   */
+    
+    
+}
+
+#dog{
+    
+    margin-left: 130px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 15px; 
+    border-style: groove;
+  border-color: brown; 
+    
+}
+
+#section-100-buttons {
+    display: grid;
+    font-size: 30%;
+    border-style: groove;
+  border-color: brown;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    /* grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;  */
+}
+#section-200-buttons {
+    display: grid;
+    font-size: 30%;
+    border-style: groove;
+  border-color: brown;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    /* grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; */
+}
+#section-300-buttons {
+    display: grid;
+    font-size: 30%;
+    border-style: groove;
+  border-color: brown;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; */
+}
+#section-400-buttons {
+    display: grid;
+    font-size: 30%;
+    border-style: groove;
+  border-color: brown;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    /* grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; */
+}
+#section-500-buttons {
+    display: grid;
+    font-size: 30%;
+    border-style: groove;
+  border-color: brown;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    /* grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; */
+}
+#section-600-buttons {
+    display: grid;
+    font-size: 30%;
+    border-style: groove;
+  border-color: brown;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    /* grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; */
+}
+#section-700-buttons {
+    display: grid;
+    font-size: 30%;
+    border-style: groove;
+  border-color: brown;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    /* grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; */
+}
+#section-800-buttons {
+    display: grid;
+    font-size: 30%;
+    border-style: groove;
+  border-color: brown;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    /* grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; */
+}
+#section-900-buttons {
+    display: grid;
+    font-size: 30%;
+    border-style: groove;
+  border-color: brown;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; */
+} 
+#section-1000-buttons {
+    display: grid;
+     font-size: 30%; 
+     border-style: groove;
+    border-color: brown;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+    /* grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; */
+}
+
+
+
+
+
+
+/* #premiere1 {font-size: 50%};
 /* #deuxieme {font-size: 50%};
 #troisieme {font-size: 50%};
 #quatrieme {font-size: 50%};
@@ -68,7 +183,7 @@ p {
 #huitieme {font-size: 50%};
 #neuvieme {font-size: 50%};
 #dixieme {font-size: 50%};
-  */
+  */ 
 
    
 

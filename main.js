@@ -21,7 +21,13 @@
     let abundanceAndExcess9 = groupedData.abundanceAndExcess;
     let lagniappe10 = groupedData.lagniappe;
 
-    // buttonQuerySelectorVariables for: ---- Comings And Goings ----
+    // paragraphQuerySelectorVariables
+
+    let paragraph1 = document.querySelector('#figuresOfSpeech');
+    let paragraph2 = document.querySelector('#translation');
+    let paragraph3 = document.querySelector('#audio');
+
+     // buttonQuerySelectorVariables for: ---- Comings And Goings ----
 
     let comingsAndGoingsButton1 = document.querySelector('#premiere1');
     let comingsAndGoingsButton2 = document.querySelector('#premiere2');
@@ -34,7 +40,7 @@
     let comingsAndGoingsButton9 = document.querySelector('#premiere9');
     let comingsAndGoingsButton10 = document.querySelector('#premiere10');
 
-//     
+     // buttonQuerySelectorVariables for:
 
     let friendsAndLoversButton1 = document.querySelector('#deuxieme1');
     let friendsAndLoversButton2 = document.querySelector('#deuxieme2');
@@ -47,6 +53,8 @@
     let friendsAndLoversButton9 = document.querySelector('#deuxieme9');
     let friendsAndLoversButton10 = document.querySelector('#deuxieme10');
 
+    // buttonQuerySelectorVariables for:
+
     let timeAndSpaceButton1 = document.querySelector('#troisieme1');
     let timeAndSpaceButton2 = document.querySelector('#troisieme2');
     let timeAndSpaceButton3 = document.querySelector('#troisieme3');
@@ -57,6 +65,8 @@
     let timeAndSpaceButton8 = document.querySelector('#troisieme8');
     let timeAndSpaceButton9 = document.querySelector('#troisieme9');
     let timeAndSpaceButton10 = document.querySelector('#troisieme10');
+
+    // buttonQuerySelectorVariables for:
 
     let bodyAndHealthButton1 = document.querySelector('#quatrieme1');
     let bodyAndHealthButton2 = document.querySelector('#quatrieme2');
@@ -69,6 +79,7 @@
     let bodyAndHealthButton9 = document.querySelector('#quatrieme9');
     let bodyAndHealthButton10 = document.querySelector('#quatrieme10');
    
+    // buttonQuerySelectorVariables for:
 
     let mistakesAndFailuresButton1 = document.querySelector('#cinquieme1');
     let mistakesAndFailuresButton2 = document.querySelector('#cinquieme2');
@@ -80,6 +91,8 @@
     let mistakesAndFailuresButton8 = document.querySelector('#cinquieme8');
     let mistakesAndFailuresButton9 = document.querySelector('#cinquieme9');
     let mistakesAndFailuresButton10 = document.querySelector('#cinquieme10');
+    
+    // buttonQuerySelectorVariables for:
 
     let feelingsAndMoodButton1 = document.querySelector('#sixieme1');
     let feelingsAndMoodButton2 = document.querySelector('#sixieme2');
@@ -92,6 +105,8 @@
     let feelingsAndMoodButton9 = document.querySelector('#sixieme9');
     let feelingsAndMoodButton10 = document.querySelector('#sixieme10');
 
+    // buttonQuerySelectorVariables for:
+
     let familyAndChildrenButton1 = document.querySelector('#septieme1');
     let familyAndChildrenButton2 = document.querySelector('#septieme2');
     let familyAndChildrenButton3 = document.querySelector('#septieme3');
@@ -102,6 +117,8 @@
     let familyAndChildrenButton8 = document.querySelector('#septieme8');
     let familyAndChildrenButton9 = document.querySelector('#septieme9');
     let familyAndChildrenButton10 = document.querySelector('#septieme10');
+
+    // buttonQuerySelectorVariables for:
 
     let natureButton1 = document.querySelector('#huitieme1');
     let natureButton2 = document.querySelector('#huitieme2');
@@ -114,6 +131,8 @@
     let natureButton9 = document.querySelector('#huitieme9');
     let natureButton10 = document.querySelector('#huitieme10');
 
+    // buttonQuerySelectorVariables for:
+
     let abundanceAndExcessButton1 = document.querySelector('#neuvieme1');
     let abundanceAndExcessButton2 = document.querySelector('#neuvieme2');
     let abundanceAndExcessButton3 = document.querySelector('#neuvieme3');
@@ -125,6 +144,8 @@
     let abundanceAndExcessButton9 = document.querySelector('#neuvieme9');
     let abundanceAndExcessButton10 = document.querySelector('#neuvieme10');
 
+    // buttonQuerySelectorVariables for:
+
     let lagniappeButton1 = document.querySelector('#dixieme1');
     let lagniappeButton2 = document.querySelector('#dixieme2');
     let lagniappeButton3 = document.querySelector('#dixieme3');
@@ -135,6 +156,28 @@
     let lagniappeButton8 = document.querySelector('#dixieme8');
     let lagniappeButton9 = document.querySelector('#dixieme9');
     let lagniappeButton10 = document.querySelector('#dixieme10');
+
+
+    // audioFileVariables:
+    // let comingsAndGoingsAudio1 = new Audio("New Recording.m4a")
+    // comingsAndGoingsAudio1.play();
+    
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
 
     // function everything (buttonQuerySelectorVariable, index, categoryDataVariable){}
    // function call for category: ---- Comings And Goings ----
@@ -168,13 +211,6 @@
     // function everything (buttonQuerySelectorVariable, index, categoryDataVariable){}
    // function call for category: ---- Time And Space ----
 
- 
-
-
-   
-   
-
-
    everything(timeAndSpaceButton1, 0, timeAndSpace3);
    everything(timeAndSpaceButton2, 1, timeAndSpace3);  
    everything(timeAndSpaceButton3, 2, timeAndSpace3);  
@@ -202,16 +238,6 @@
 
    // function everything (buttonQuerySelectorVariable, index, categoryDataVariable){}
   // function call for category: ---- Mistakes And Failures ----
-
-  
-
-
-
-
-
-
-  
-  
 
   everything(mistakesAndFailuresButton1, 0, mistakesAndFailures5);
   everything(mistakesAndFailuresButton2, 1, mistakesAndFailures5);  
@@ -255,16 +281,6 @@
    // function everything (buttonQuerySelectorVariable, index, categoryDataVariable){}
   // function call for category: ---- Nature ----
 
-
- 
-
-
-
-  
-  
- 
- 
-
   everything(natureButton1, 0, nature8);
   everything(natureButton2, 1, nature8);  
   everything(natureButton3, 2, nature8);  
@@ -293,9 +309,6 @@
     // function everything (buttonQuerySelectorVariable, index, categoryDataVariable){}
    // function call for category: ---- Lagniappe ----
 
-  
-
-
    everything(lagniappeButton1, 0, lagniappe10);
    everything(lagniappeButton2, 1, lagniappe10);  
    everything(lagniappeButton3, 2, lagniappe10);  
@@ -322,18 +335,15 @@
 
 
 
-    let paragraph1 = document.querySelector('#figuresOfSpeech');
-    let paragraph2 = document.querySelector('#translation');
+   
 
-//     //console.log(comingsAndGoings1[0].translation)
 
-//     // let createButtonElement = document.createElement('button');
 
     
        
 
    
-console.log(comingsAndGoings1)
+// console.log(comingsAndGoings1)
 
 // comingsAndGoingsButton1.addEventListener('click', function(){
 //     for(let i = 0; i < comingsAndGoings1.length; i++){
@@ -479,7 +489,7 @@ function everything (buttonQuerySelectorVariable, index, categoryDataVariable){
             
         paragraph1.innerText = `Figure of Speech:  ${categoryDataVariable[index].figureOfSpeech}`
         paragraph2.innerText = `Translation:  ${categoryDataVariable[index].translation}`
-            
+       
         console.log(categoryDataVariable[index].figureOfSpeech)
         console.log(categoryDataVariable[index].translation)
     };
@@ -491,10 +501,7 @@ function everything (buttonQuerySelectorVariable, index, categoryDataVariable){
 }
 
 
-// if(document.getElementById('#premiere1') === '#premiere1'){
 
-
-// }
 
     
 
@@ -513,7 +520,6 @@ function everything (buttonQuerySelectorVariable, index, categoryDataVariable){
 }
 
 speechData();
-
 
 
 
