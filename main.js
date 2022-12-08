@@ -27,7 +27,7 @@
     let paragraph2 = document.querySelector('#translation');
     let paragraph3 = document.querySelector('#audio');
 
-     // buttonQuerySelectorVariables:
+     // buttonQuerySelectorVariables for figures of speech categories:
 
     let comingsAndGoingsButton1 = document.querySelectorAll('#premiere button');
     let friendsAndLoversButton1 = document.querySelectorAll('#deuxieme button');
@@ -39,6 +39,35 @@
     let natureButton1 = document.querySelectorAll('#huitieme button');
     let abundanceAndExcessButton1 = document.querySelectorAll('#neuvieme button');
     let lagniappeButton1 = document.querySelectorAll('#dixieme button');
+
+     // buttonQuerySelectorVariables for audio files:
+
+     let comingsAndGoingsAudio1 = document.querySelectorAll('#section-100-buttons button');
+    let friendsAndLoversAudio1 = document.querySelectorAll('#section-200-buttons button');
+    let timeAndSpaceAudio1 = document.querySelectorAll('#section-300-buttons button');
+    let bodyAndHealthAudio1 = document.querySelectorAll('#section-400-buttons button');
+    let mistakesAndFailuresAudio1 = document.querySelectorAll('#section-500-buttons button');
+    let feelingsAndMoodAudio1 = document.querySelectorAll('#section-600-buttons button');
+    let familyAndChildrenAudio1 = document.querySelectorAll('#section-700-buttons button');
+    let natureAudio1 = document.querySelectorAll('#section-800-buttons button');
+    let abundanceAndExcessAudio1 = document.querySelectorAll('#section-900-buttons button');
+    let lagniappeAudio1 = document.querySelectorAll('#section-1000-buttons button');
+
+    // Audio files variables:
+
+    let myAudio = new Audio("Audio files/comingsandgoingentry1.m4a")
+            myAudio.play();
+            
+
+   
+
+
+
+
+
+
+
+
    
 
 
@@ -68,6 +97,7 @@ function everything (buttonQuerySelectorVariable, categoryDataVariable){
     buttonQuerySelectorVariable[i].addEventListener('click', function(){
     paragraph1.innerText = `Figure of Speech:  ${categoryDataVariable[i].figureOfSpeech}`
     paragraph2.innerText = `Translation:  ${categoryDataVariable[i].translation}`
+    
     console.log(categoryDataVariable[i].figureOfSpeech)
     console.log(categoryDataVariable[i].translation)
     });
@@ -75,11 +105,29 @@ function everything (buttonQuerySelectorVariable, categoryDataVariable){
     };
 
 
+ function audio (buttonQuerySelectorVariable, audioFileName) {
+    for(let i = 0; i < buttonQuerySelectorVariable.length; i++){
+        buttonQuerySelectorVariable[i].addEventListener('click', function(){
+            
 
+        
+    
+        console.log('Audio files');
+        });
+        };
+        };
+
+        audio(comingsAndGoingsAudio1, );
+
+
+
+ 
 
     
 
 
+
+    
 
 
 

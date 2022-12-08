@@ -93,7 +93,7 @@ button{
     border-style: groove;
   border-color: brown;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
-    /* grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;  */
+    
 }
 #section-200-buttons {
     display: grid;
@@ -101,7 +101,7 @@ button{
     border-style: groove;
   border-color: brown;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
-    /* grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; */
+   
 }
 #section-300-buttons {
     display: grid;
@@ -109,7 +109,7 @@ button{
     border-style: groove;
   border-color: brown;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    /* grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; */
+   
 }
 #section-400-buttons {
     display: grid;
@@ -117,7 +117,7 @@ button{
     border-style: groove;
   border-color: brown;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
-    /* grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; */
+    
 }
 #section-500-buttons {
     display: grid;
@@ -125,15 +125,16 @@ button{
     border-style: groove;
   border-color: brown;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
-    /* grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; */
+  
 }
 #section-600-buttons {
+  
     display: grid;
     font-size: 30%;
     border-style: groove;
   border-color: brown;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
-    /* grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; */
+    
 }
 #section-700-buttons {
     display: grid;
@@ -141,7 +142,7 @@ button{
     border-style: groove;
   border-color: brown;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
-    /* grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; */
+    
 }
 #section-800-buttons {
     display: grid;
@@ -149,7 +150,7 @@ button{
     border-style: groove;
   border-color: brown;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
-    /* grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; */
+    
 }
 #section-900-buttons {
     display: grid;
@@ -157,7 +158,7 @@ button{
     border-style: groove;
   border-color: brown;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    /* grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; */
+    
 } 
 #section-1000-buttons {
     display: grid;
@@ -165,7 +166,7 @@ button{
      border-style: groove;
     border-color: brown;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
-    /* grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; */
+    
 }
 
 
@@ -173,28 +174,7 @@ button{
 
 
 
-/* #premiere1 {font-size: 50%};
-/* #deuxieme {font-size: 50%};
-#troisieme {font-size: 50%};
-#quatrieme {font-size: 50%};
-#cinquieme {font-size: 50%};
-#sixieme {font-size: 50%};
-#septieme {font-size: 50%};
-#huitieme {font-size: 50%};
-#neuvieme {font-size: 50%};
-#dixieme {font-size: 50%};
-  */ 
 
-   
-
-
-
-
-
-
-
-
-/* 
 
 html{
     scrollbar-width: normal;
