@@ -7,7 +7,7 @@ main{
     
     border-radius: 10px;
     /* width: 78%; */
-    margin-top: -300px;
+    margin-top: -290px;
     font-weight: 700;
     margin-left: 130px;
     margin-right: 15px; 
@@ -19,11 +19,19 @@ main{
 } 
 
     .scroll-div{
-        width: 115px;
+        width: 95px;
         height: 300px;
         overflow: hidden;
         overflow-y: scroll; 
     }
+
+    .scroll-div1{
+      margin-top: 20px; 
+      width: 555px;
+      height: 150px;
+      overflow: hidden;
+      overflow-y: scroll; 
+  }
 
 
    /* nav{
@@ -79,11 +87,11 @@ button{
 #dog{
     
     margin-left: 130px;
-    margin-top: 20px;
+    margin-top: 0px;
     margin-bottom: 20px;
-    margin-right: 15px; 
+    margin-right: 0px; 
     border-style: groove;
-  border-color: brown; 
+    border-color: brown; 
     
 }
 
@@ -178,7 +186,7 @@ button{
 
 html{
     scrollbar-width: normal;
-    scrollbar-color: red blue;
+    scrollbar-color: red blue; 
 
 }
 
@@ -191,7 +199,7 @@ nav{
     width: 100px;
     border-right: solid black;
     scrollbar-width: normal;
-    scrollbar-color: red blue;
+    scrollbar-color: red blue; 
     
 }
 

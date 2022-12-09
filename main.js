@@ -55,25 +55,16 @@
 
     // Audio files variables:
 
-    // let myAudio = new Audio("Audio files/comingsandgoingentry1.m4a")
-    //         myAudio.play();
-            
-
-   
-    // let myAudio = new Audio("Recordings/feelingsandmoodentry2.m4a")
-    // myAudio.play();  
-
-    let entryAudio1 = document.querySelectorAll('#section-10-audio audio');
-
-
-
-
-
-   
-
-
-  
-
+    let audioEntry10 = document.querySelectorAll('#section-10-audio audio');
+    let audioEntry20 = document.querySelectorAll('#section-20-audio audio');
+    let audioEntry30 = document.querySelectorAll('#section-30-audio audio');
+    let audioEntry40 = document.querySelectorAll('#section-40-audio audio');
+    let audioEntry50 = document.querySelectorAll('#section-50-audio audio');
+    let audioEntry60 = document.querySelectorAll('#section-60-audio audio');
+    let audioEntry70 = document.querySelectorAll('#section-70-audio audio');
+    let audioEntry80 = document.querySelectorAll('#section-80-audio audio');
+    let audioEntry90 = document.querySelectorAll('#section-90-audio audio');
+    let audioEntry100 = document.querySelectorAll('#section-100-audio audio');
 
     // Function calls for:  function everything (buttonQuerySelectorVariable, categoryDataVariable){}
    
@@ -90,34 +81,22 @@
 
     // Function calls for:  function audio (buttonQuerySelectorVariable){}
     
-    audio(comingsAndGoingsAudio1, entryAudio1);
-    audio(friendsAndLoversAudio1);
-    audio(timeAndSpaceAudio1);
-    audio(bodyAndHealthAudio1);
-    audio(mistakesAndFailuresAudio1);
-    audio(feelingsAndMoodAudio1);
-    audio(familyAndChildrenAudio1);
-    audio(natureAudio1);
-    audio(abundanceAndExcessAudio1);
-    audio(lagniappeAudio1);
+    audio(comingsAndGoingsAudio1, audioEntry10);
+    audio(friendsAndLoversAudio1, audioEntry20);
+    audio(timeAndSpaceAudio1, audioEntry30);
+    audio(bodyAndHealthAudio1, audioEntry40);
+    audio(mistakesAndFailuresAudio1, audioEntry50);
+    audio(feelingsAndMoodAudio1, audioEntry60);
+    audio(familyAndChildrenAudio1, audioEntry70);
+    audio(natureAudio1, audioEntry80);
+    audio(abundanceAndExcessAudio1, audioEntry90);
+    audio(lagniappeAudio1, audioEntry100);
 
 
     
-    
-     
-      
-     
-     
-     
-      
-      
-      
-    
+    // function everything (buttonQuerySelectorVariable, categoryDataVariable){}
 
-
-// function everything (buttonQuerySelectorVariable, categoryDataVariable){}
-   
-function everything (buttonQuerySelectorVariable, categoryDataVariable){
+    function everything (buttonQuerySelectorVariable, categoryDataVariable){
     for(let i = 0; i < buttonQuerySelectorVariable.length; i++){
     buttonQuerySelectorVariable[i].addEventListener('click', function(){
     paragraph1.innerText = `Figure of Speech:  ${categoryDataVariable[i].figureOfSpeech}`
@@ -143,28 +122,6 @@ function everything (buttonQuerySelectorVariable, categoryDataVariable){
         });
         };
         };
-
-    
-
-
-
- 
-
-    
-
-
-
-    
-
-
-
-
-
-
-
-
-
-
 
 }
 speechData();
