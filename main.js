@@ -55,14 +55,15 @@
 
     // Audio files variables:
 
-    let myAudio = new Audio("Audio files/comingsandgoingentry1.m4a")
-            myAudio.play();
+    // let myAudio = new Audio("Audio files/comingsandgoingentry1.m4a")
+    //         myAudio.play();
             
 
    
+    // let myAudio = new Audio("Recordings/feelingsandmoodentry2.m4a")
+    // myAudio.play();  
 
-
-
+    let entryAudio1 = document.querySelectorAll('#section-10-audio audio');
 
 
 
@@ -87,6 +88,30 @@
     everything(abundanceAndExcessButton1, abundanceAndExcess9);
     everything(lagniappeButton1, lagniappe10);
 
+    // Function calls for:  function audio (buttonQuerySelectorVariable){}
+    
+    audio(comingsAndGoingsAudio1, entryAudio1);
+    audio(friendsAndLoversAudio1);
+    audio(timeAndSpaceAudio1);
+    audio(bodyAndHealthAudio1);
+    audio(mistakesAndFailuresAudio1);
+    audio(feelingsAndMoodAudio1);
+    audio(familyAndChildrenAudio1);
+    audio(natureAudio1);
+    audio(abundanceAndExcessAudio1);
+    audio(lagniappeAudio1);
+
+
+    
+    
+     
+      
+     
+     
+     
+      
+      
+      
     
 
 
@@ -105,9 +130,11 @@ function everything (buttonQuerySelectorVariable, categoryDataVariable){
     };
 
 
- function audio (buttonQuerySelectorVariable, audioFileName) {
+ function audio (buttonQuerySelectorVariable, audioFile) {
     for(let i = 0; i < buttonQuerySelectorVariable.length; i++){
         buttonQuerySelectorVariable[i].addEventListener('click', function(){
+
+            audioFile[i].play()
             
 
         
@@ -117,7 +144,7 @@ function everything (buttonQuerySelectorVariable, categoryDataVariable){
         };
         };
 
-        audio(comingsAndGoingsAudio1, );
+    
 
 
 
