@@ -8,6 +8,7 @@
       //console.log(groupedData.friendsAndLovers);
       //console.log(groupedData.translation);
 
+
     // categoryDataVariables
   
     let comingsAndGoings1 = groupedData.comingsAndGoings;
@@ -42,7 +43,7 @@
 
      // buttonQuerySelectorVariables for audio files:
 
-     let comingsAndGoingsAudio1 = document.querySelectorAll('#section-100-buttons button');
+    let comingsAndGoingsAudio1 = document.querySelectorAll('#section-100-buttons button');
     let friendsAndLoversAudio1 = document.querySelectorAll('#section-200-buttons button');
     let timeAndSpaceAudio1 = document.querySelectorAll('#section-300-buttons button');
     let bodyAndHealthAudio1 = document.querySelectorAll('#section-400-buttons button');
@@ -79,7 +80,7 @@
     everything(abundanceAndExcessButton1, abundanceAndExcess9);
     everything(lagniappeButton1, lagniappe10);
 
-    // Function calls for:  function audio (buttonQuerySelectorVariable){}
+    // Function calls for:  function audio (buttonQuerySelectorVariable, audioFileVariable){}
     
     audio(comingsAndGoingsAudio1, audioEntry10);
     audio(friendsAndLoversAudio1, audioEntry20);
@@ -93,38 +94,34 @@
     audio(lagniappeAudio1, audioEntry100);
 
 
-    
     // function everything (buttonQuerySelectorVariable, categoryDataVariable){}
 
     function everything (buttonQuerySelectorVariable, categoryDataVariable){
-    for(let i = 0; i < buttonQuerySelectorVariable.length; i++){
-    buttonQuerySelectorVariable[i].addEventListener('click', function(){
-    paragraph1.innerText = `Figure of Speech:  ${categoryDataVariable[i].figureOfSpeech}`
-    paragraph2.innerText = `Translation:  ${categoryDataVariable[i].translation}`
+        for(let i = 0; i < buttonQuerySelectorVariable.length; i++){
+        buttonQuerySelectorVariable[i].addEventListener('click', function(){
+        paragraph1.innerText = `Figure of Speech:  ${categoryDataVariable[i].figureOfSpeech}`;
+        paragraph2.innerText = `Translation:  ${categoryDataVariable[i].translation}`;
     
-    console.log(categoryDataVariable[i].figureOfSpeech)
-    console.log(categoryDataVariable[i].translation)
+    console.log(categoryDataVariable[i].figureOfSpeech);
+    console.log(categoryDataVariable[i].translation);
     });
     };
     };
 
+    // function audio (buttonQuerySelectorVariable, audioFileVariable){}
 
- function audio (buttonQuerySelectorVariable, audioFile) {
-    for(let i = 0; i < buttonQuerySelectorVariable.length; i++){
+    function audio (buttonQuerySelectorVariable, audioFile) {
+        for(let i = 0; i < buttonQuerySelectorVariable.length; i++){
         buttonQuerySelectorVariable[i].addEventListener('click', function(){
-
-            audioFile[i].play()
+        audioFile[i].play();
             
+    console.log('Audio files');
+    });
+    };
+    };
 
-        
-    
-        console.log('Audio files');
-        });
-        };
-        };
-
-}
-speechData();
+    }
+    speechData();
 
 
 

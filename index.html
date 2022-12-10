@@ -5,19 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <!-- Bootstrap  link href for css-->
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
-    <h1>A glossary of Louisiana French figures of speech</h1>
+<h1>A glossary of Louisiana French figures of speech</h1>
 
-   <div class="scroll-div">
-   
-    <nav>
+<!-- Category/entry figure of speech selector buttons(bootstrap) with scroll capability -->
+<!-- Scroll -->
 
-    
-    <div class="btn-group-vertical btn-group-sm" role="group" aria-label="Vertical button group">
+<div class="scroll-div">
+<div class="btn-group-vertical btn-group-sm" role="group" aria-label="Vertical button group">
        
        <div id="premiere">
     <button id="premiere1" type="button" class="btn btn-dark">Comings And Goings: Entry 1</button>
@@ -32,8 +34,7 @@
     <button id="premiere10"type="button" class="btn btn-dark">Comings And Goings: Entry 10</button>
 </div>
 
-
- <div id="deuxieme">
+<div id="deuxieme">
     <button id="deuxieme1" type="button" class="btn btn-dark">Friends And Lovers: Entry 1</button>
     <button id="deuxieme2" type="button" class="btn btn-dark">Friends And Lovers: Entry 2 </button>
     <button id="deuxieme3" type="button" class="btn btn-dark">Friends And Lovers: Entry 3</button>
@@ -46,7 +47,7 @@
     <button id="deuxieme10"type="button" class="btn btn-dark">Friends And Lovers: Entry 10</button>
 </div>
 
-  <div id="troisieme">
+<div id="troisieme">
     <button id="troisieme1" type="button" class="btn btn-dark">Time And Space: Entry 1</button>
     <button id="troisieme2" type="button" class="btn btn-dark">Time And Space: Entry 2</button>
     <button id="troisieme3" type="button" class="btn btn-dark">Time And Space: Entry 3</button>
@@ -59,7 +60,7 @@
     <button id="troisieme10" type="button" class="btn btn-dark">Time And Space: Entry 10</button>
 </div>
 
-    <div id="quatrieme">
+<div id="quatrieme">
     <button id="quatrieme1" type="button" class="btn btn-dark">Body And Health: Entry 1</button> 
     <button id="quatrieme2" type="button" class="btn btn-dark">Body And Health: Entry 2</button> 
     <button id="quatrieme3" type="button" class="btn btn-dark">Body And Health: Entry 3</button> 
@@ -72,7 +73,7 @@
     <button id="quatrieme10" type="button" class="btn btn-dark">Body And Health: Entry 10</button> 
 </div>
 
-    <div id="cinquieme">
+<div id="cinquieme">
     <button id="cinquieme1" type="button" class="btn btn-dark">Mistakes And Failures: Entry 1</button>
     <button id="cinquieme2" type="button" class="btn btn-dark">Mistakes And Failures: Entry 2</button>
     <button id="cinquieme3" type="button" class="btn btn-dark">Mistakes And Failures: Entry 3</button>
@@ -85,7 +86,7 @@
     <button id="cinquieme10" type="button" class="btn btn-dark">Mistakes And Failures: Entry 10</button>
 </div>
 
-    <div id="sixieme">
+<div id="sixieme">
     <button id="sixieme1" type="button" class="btn btn-dark">Feelings And Mood: Entry 1</button>
     <button id="sixieme2" type="button" class="btn btn-dark">Feelings And Mood: Entry 2</button>
     <button id="sixieme3" type="button" class="btn btn-dark">Feelings And Mood: Entry 3</button>
@@ -98,7 +99,7 @@
     <button id="sixieme10" type="button" class="btn btn-dark">Feelings And Mood: Entry 10</button>
 </div>
    
-    <div id="septieme">
+<div id="septieme">
     <button id="septieme1" type="button" class="btn btn-dark">Family And Children: Entry 1</button>
     <button id="septieme2" type="button" class="btn btn-dark">Family And Children: Entry 2</button>
     <button id="septieme3" type="button" class="btn btn-dark">Family And Children: Entry 3</button>
@@ -111,7 +112,7 @@
     <button id="septieme10" type="button" class="btn btn-dark">Family And Children: Entry 10</button>
 </div>
 
-    <div id="huitieme">
+<div id="huitieme">
     <button id="huitieme1" type="button" class="btn btn-dark">Nature: Entry 1</button>
     <button id="huitieme2" type="button" class="btn btn-dark">Nature: Entry 2</button>
     <button id="huitieme3" type="button" class="btn btn-dark">Nature: Entry 3</button>
@@ -124,7 +125,7 @@
     <button id="huitieme10" type="button" class="btn btn-dark">Nature: Entry 10</button>
 </div>
 
-  <div id="neuvieme">
+<div id="neuvieme">
     <button id="neuvieme1" type="button" class="btn btn-dark">Abundance And Excess: Entry 1</button>
     <button id="neuvieme2" type="button" class="btn btn-dark">Abundance And Excess: Entry 2</button>
     <button id="neuvieme3" type="button" class="btn btn-dark">Abundance And Excess: Entry 3</button>
@@ -149,11 +150,10 @@
     <button id="dixieme9" type="button" class="btn btn-dark">Lagniappe: Entry 9</button>
     <button id="dixieme10" type="button" class="btn btn-dark">Lagniappe: Entry 10</button>
 </div>
- 
+</div>
+</div>
 
-</div>
-</nav>
-</div>
+<!-- Main tag for window that contains the figure of speech, the literal translation and the general translation -->
 
 <main>  
     <p id="figuresOfSpeech"></p>
@@ -161,14 +161,14 @@
     <p id="audio"></p>
 </main>  
 
-     
 
-     <div class="scroll-div1">
+<!-- Grid of buttons for audio files by category and entry number -->
+<!-- Scroll bar -->
 
-     <div id="dog">
-     
-     <div class="section" id="section-100">
-        <div id="section-100-buttons">
+<div class="scroll-div1">
+<div id="dog">
+<div class="section" id="section-100">
+<div id="section-100-buttons">
         <button class="button-100-1">Comings & Goings: 1 </button>
         <button class="button-100-2">Comings & Goings: 2</button>
         <button class="button-100-3">Comings & Goings: 3</button>
@@ -183,7 +183,7 @@
 </div> 
 
 <div class="section" id="section-200">
-    <div id="section-200-buttons"> 
+<div id="section-200-buttons"> 
         <button class="button-200-1">Friends & Lovers: 1</button>
         <button class="button-200-2">Friends & Lovers: 2</button>
         <button class="button-200-3">Friends & Lovers: 3</button>
@@ -197,8 +197,8 @@
 </div>
 </div> 
 
-        <div class="section" id="section-300">
-        <div id="section-300-buttons">
+<div class="section" id="section-300">
+<div id="section-300-buttons">
             <button class="button-300-1">Time & Space: 1</button>
             <button class="button-300-2">Time & Space: 2</button>
             <button class="button-300-3">Time & Space: 3</button>
@@ -213,7 +213,7 @@
 </div>
 
 <div class="section" id="section-400">
-    <div id="section-400-buttons">
+<div id="section-400-buttons">
         <button class="button-400-1">Body & Health: 1</button>
         <button class="button-400-2">Body & Health: 2</button>
         <button class="button-400-3">Body & Health: 3</button>
@@ -228,7 +228,7 @@
 </div>
 
 <div class="section" id="section-500">
-    <div id="section-500-buttons"> 
+<div id="section-500-buttons"> 
         <button class="button-500-1">Mistakes & Failures: 1</button>
         <button class="button-500-2">Mistakes & Failures: 2</button>
         <button class="button-500-3">Mistakes & Failures: 3</button>
@@ -244,7 +244,7 @@
 
 
 <div class="section" id="section-600">
-    <div id="section-600-buttons">
+<div id="section-600-buttons">
         <button class="button-600-1">Feelings &  Mood: 1</button>
         <button class="button-600-2">Feelings & Mood: 2</button>
         <button class="button-600-3">Feelings & Mood: 3</button>
@@ -259,7 +259,7 @@
 </div>
 
 <div class="section" id="section-700">
-    <div id="section-700-buttons">
+<div id="section-700-buttons">
         <button class="button-700-1">Family & Children: 1</button>
         <button class="button-700-2">Family & Children: 2</button>
         <button class="button-700-3">Family & Children: 3</button>
@@ -274,7 +274,7 @@
 </div>
 
 <div class="section" id="section-800">
-    <div id="section-800-buttons">
+<div id="section-800-buttons">
         <button class="button-800-1">Nature: 1</button>
         <button class="button-800-2">Nature: 2</button>
         <button class="button-800-3">Nature: 3</button>
@@ -289,7 +289,7 @@
 </div>
 
 <div class="section" id="section-900">
-    <div id="section-900-buttons"> 
+<div id="section-900-buttons"> 
         <button class="button-900-1">Abundance & Excess: 1</button>
         <button class="button-900-2">Abundance & Excess: 2</button>
         <button class="button-900-3">Abundance & Excess: 3</button>
@@ -300,12 +300,12 @@
         <button class="button-900-8">Abundance & Excess: 8</button>
         <button class="button-900-9">Abundance & Excess: 9</button>
         <button class="button-900-10">Abundance & Excess: 10</button>
-     </div>
+</div>
 </div> 
 
 
 <div class="section" id="section-1000">
-    <div id="section-1000-buttons"> 
+<div id="section-1000-buttons"> 
         <button class="button-1000-1">Lagniappe: 1</button>
         <button class="button-1000-2">Lagniappe: 2</button>
         <button class="button-1000-3">Lagniappe: 3</button>
@@ -316,17 +316,15 @@
         <button class="button-1000-8">Lagniappe: 8</button>
         <button class="button-1000-9">Lagniappe: 9</button>
         <button class="button-1000-10">Lagniappe: 10</button>
-     </div>
+</div>
 </div> 
 </div>
 </div> 
 
-
-
-
+<!-- Audio files by category and entry number -->
 
 <div class="section" id="section-10">
-    <div id="section-10-audio"> 
+<div id="section-10-audio"> 
 
     <audio class="audio-10-1" src="Recordings/comingsandgoingsentry1.m4a">Comings And Goings Audio Entry 1</audio>
     <audio class="audio-10-2" src="Recordings/comingsandgoingsentry2.m4a">Comings And Goings Audio Entry 2</audio>
@@ -343,7 +341,7 @@
 </div>
 
 <div class="section" id="section-20">
-    <div id="section-20-audio"> 
+<div id="section-20-audio"> 
 
     <audio class="audio-20-1" src="Recordings/friendsandloversentry1.m4a">Friends And Lovers Audio Entry 1</audio>
     <audio class="audio-20-2" src="Recordings/friendsandloversentry2.m4a">Friends And Lovers Audio Entry 2</audio>
@@ -359,8 +357,8 @@
 </div> 
 </div>
 
-    <div class="section" id="section-30">
-        <div id="section-30-audio"> 
+<div class="section" id="section-30">
+<div id="section-30-audio"> 
 
     <audio class="audio-30-1" src="Recordings/timeandspaceentry1.m4a">Audio Entry 1</audio>
     <audio class="audio-30-2" src="Recordings/timeandspaceentry2.m4a">Audio Entry 2</audio>
@@ -376,8 +374,8 @@
 </div> 
 </div>
 
-    <div class="section" id="section-40">
-        <div id="section-40-audio"> 
+<div class="section" id="section-40">
+<div id="section-40-audio"> 
 
     <audio class="audio-40-1" src="Recordings/bodyandhealthentry1.m4a">Audio Entry 1</audio>
     <audio class="audio-40-2" src="Recordings/bodyandhealthentry2.m4a">Audio Entry 2</audio>
@@ -393,8 +391,8 @@
 </div> 
 </div>
 
-    <div class="section" id="section-50">
-        <div id="section-50-audio"> 
+<div class="section" id="section-50">
+<div id="section-50-audio"> 
 
     <audio class="audio-50-1"src="Recordings/mistakesandfailuresentry1.m4a">Audio Entry 1</audio>
     <audio class="audio-50-2"src="Recordings/mistakesandfailuresentry2.m4a">Audio Entry 2</audio>
@@ -410,8 +408,8 @@
 </div> 
 </div>
 
-    <div class="section" id="section-60">
-        <div id="section-60-audio"> 
+<div class="section" id="section-60">
+<div id="section-60-audio"> 
 
     <audio class="audio-60-1"src="Recordings/feelingsandmoodentry1.m4a">Audio Entry 1</audio>
     <audio class="audio-60-2"src="Recordings/feelingsandmoodentry2.m4a">Audio Entry 2</audio>
@@ -427,8 +425,8 @@
 </div> 
 </div>
 
-    <div class="section" id="section-70">
-        <div id="section-70-audio"> 
+<div class="section" id="section-70">
+<div id="section-70-audio"> 
 
     <audio class="audio-70-1"src="Recordings/familyandchildrenentry1.m4a">Audio Entry 1</audio>
     <audio class="audio-70-2"src="Recordings/familyandchildrenentry2.m4a">Audio Entry 2</audio>
@@ -444,8 +442,8 @@
 </div> 
 </div>
 
-    <div class="section" id="section-80">
-        <div id="section-80-audio"> 
+<div class="section" id="section-80">
+<div id="section-80-audio"> 
     
     <audio class="audio-80-1"src="Recordings/natureentry1.m4a">Audio Entry 1</audio>
     <audio class="audio-80-2"src="Recordings/natureentry2.m4a">Audio Entry 2</audio>
@@ -461,8 +459,8 @@
 </div> 
 </div>
 
-    <div class="section" id="section-90">
-        <div id="section-90-audio"> 
+<div class="section" id="section-90">
+<div id="section-90-audio"> 
 
     <audio class="audio-90-1"src="Recordings/abundanceandexcessentry1.m4a">Audio Entry 1</audio>
     <audio class="audio-90-2"src="Recordings/abundanceandexcessentry2.m4a">Audio Entry 2</audio>
@@ -478,8 +476,8 @@
 </div> 
 </div>
 
-    <div class="section" id="section-100">
-        <div id="section-100-audio"> 
+<div class="section" id="section-100">
+<div id="section-100-audio"> 
 
     <audio class="audio-100-1"src="Recordings/lagniappeentry1.m4a">Audio Entry 1</audio>
     <audio class="audio-100-2"src="Recordings/lagniappeentry2.m4a">Audio Entry 2</audio>
@@ -494,26 +492,17 @@
 
 </div> 
 </div>
-
 </div>
 
-     
+<!-- Bootstrap script source used for category/entry figure of speech selector buttons-->
 
-    
-     <audio controls>
-  <source src="Recordings/Yaunvent.m4a" type="audio/m4a">
-  
-</audio>  
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 
+<!-- Lodash script source used for _.groupBy to group data fetched from .json file-->
 
-
-    
-    
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-
-    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
 <script src="main.js"></script>
+
 </body>
 </html>
 

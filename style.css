@@ -1,10 +1,9 @@
 
 h1{
-  border: solid black;
+  border: solid 5px;
   text-align: center;
   font-size: 200%;
   border-radius: 5px;
-  /* width: 200%; */
   background-color: lightblue;
   margin-bottom: 3px;
   background-image: url('Image file/drapeau-1.jpg');
@@ -13,16 +12,18 @@ h1{
   color: black;
 }
 
+/* Background image */
 body{
-  background-color: lightblue;
-  background-image: url('Image file/drapeau-1.jpg');  
+    background-color: lightblue;
+    background-image: url('Image file/drapeau-1.jpg');  
 }
 
+/* Changed color of scroll bars */
 html{
-  scrollbar-width: normal;
-  scrollbar-color: red blue; 
+    scrollbar-width: normal;
+    scrollbar-color: red blue; 
 
-}
+} 
 
 main{
     border-radius: 10px;
@@ -36,156 +37,127 @@ main{
     background-color: black;
     color: white;
     border-style: groove;
-  
 }  
 
-p {
-  margin-bottom: 10px;
-  text-align: center;
+p{
+ margin-bottom: 10px;
+ text-align: center;
 }
 
+/* Scroll bar */
 .scroll-div{
-        width: 103px;
-        height: 300px;
-        overflow: hidden;
-        overflow-y: scroll;
-        margin-left: -10px; 
+           width: 103px;
+           height: 300px;
+           overflow: hidden;
+           overflow-y: scroll;
+           margin-left: -10px; 
 }
 
+/* Scroll bar */
 .scroll-div1{
-      margin-top: 20px; 
-      width: auto;
-      margin-right: 11px;
-      height: 100px;
-      overflow: hidden;
-      overflow-y: scroll; 
-     
-     
-      
+            margin-top: 20px; 
+            width: auto;
+            margin-right: 11px;
+            height: 100px;
+            overflow: hidden;
+            overflow-y: scroll; 
 }
 
 #dog{
-    
-  margin-left: 120px;
-  margin-top: 10px;
-  margin-right: 0px;
-  margin-bottom: 10px;
-  width: auto;
-  border-style: groove;
-  border-color: brown; 
-  
+    margin-left: 120px;
+    margin-top: 10px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    width: auto;
+    border-style: groove;
+    border-color: brown; 
 }
 
-/* .audio-container{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
-
-audio{
-  text-align: center;
-
-} 
-
-
-
-
-
-
-
-
- 
-
-
-
- 
-
 button{
-    background-color: black;
-    color: white;
- }
+      background-color: black;
+      color: white;
+}
 
 
 
 #section-100-buttons {
-    display: grid;
-    font-size: 35%;
-    border-style: groove;
-  border-color: brown;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+                     display: grid;
+                     font-size: 35%;
+                     border-style: groove;
+                     border-color: brown;
+                     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
     
 }
 #section-200-buttons {
-    display: grid;
-    font-size: 33%;
-    border-style: groove;
-  border-color: brown;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+                     display: grid;
+                     font-size: 33%;
+                     border-style: groove;
+                     border-color: brown;
+                     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
    
 }
 #section-300-buttons {
-    display: grid;
-    font-size: 33%;
-    border-style: groove;
-  border-color: brown;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+                     display: grid;
+                     font-size: 33%;
+                     border-style: groove;
+                     border-color: brown;
+                     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
    
 }
 #section-400-buttons {
-    display: grid;
-    font-size: 33%;
-    border-style: groove;
-  border-color: brown;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+                     display: grid;
+                     font-size: 33%;
+                     border-style: groove;
+                     border-color: brown;
+                     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
     
 }
 #section-500-buttons {
-    display: grid;
-    font-size: 33%;
-    border-style: groove;
-  border-color: brown;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+                     display: grid;
+                     font-size: 33%;
+                     border-style: groove;
+                     border-color: brown;
+                     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
   
 }
 #section-600-buttons {
-  
-    display: grid;
-    font-size: 33%;
-    border-style: groove;
-  border-color: brown;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+                     display: grid;
+                     font-size: 33%;
+                     border-style: groove;
+                     border-color: brown;
+                     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
     
 }
 #section-700-buttons {
-    display: grid;
-    font-size: 33%;
-    border-style: groove;
-  border-color: brown;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+                     display: grid;
+                     font-size: 33%;
+                     border-style: groove;
+                     border-color: brown;
+                     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
     
 }
 #section-800-buttons {
-    display: grid;
-    font-size: 35%;
-    border-style: groove;
-  border-color: brown;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+                     display: grid;
+                     font-size: 35%;
+                     border-style: groove;
+                     border-color: brown;
+                     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
     
 }
 #section-900-buttons {
-    display: grid;
-    font-size: 33%;
-    border-style: groove;
-  border-color: brown;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+                     display: grid;
+                     font-size: 33%;
+                     border-style: groove;
+                     border-color: brown;
+                     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     
 } 
 #section-1000-buttons {
-    display: grid;
-     font-size: 33%; 
-     border-style: groove;
-    border-color: brown;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+                      display: grid;
+                      font-size: 33%; 
+                      border-style: groove;
+                      border-color: brown;
+                      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
     
 }
 
@@ -195,28 +167,7 @@ button{
 
 
 
-/* nav{
-  border-right: 2px;
-  width: 100px;
-  border-right: solid black;
-  scrollbar-width: normal;
-  } */
 
-
-
-
-
-
-
-/* button{
-    /* border-style: groove; */
-    /* background-color: royalblue;border-color: black;
-    font-weight: bold;
-   
-    
-    text-align: center;
-    display: inline-flex;
-     */
    
     
    
