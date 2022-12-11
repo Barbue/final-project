@@ -21,7 +21,7 @@ body{
 /* Changed color of scroll bars */
 html{
     scrollbar-width: normal;
-    scrollbar-color: red blue; 
+    scrollbar-color: brown blue;
 } 
 
 main{
@@ -169,24 +169,8 @@ button{
     
 }
 
-audio{
-  
-}
 
 
-/* #music{
-  text-align: right;
-
- 
-
-
-}  */
-
-/* <!-- <div style="width:500px; margin:auto; position:relative;">
-    <audio controls style="width:100%;">
-       <source src="Rococo.MP3">This browser does not support the audio tag
-    </audio>
-</div> --> */
 
 
 
