@@ -6,7 +6,7 @@ h1{
   border-radius: 5px;
   background-color: lightblue;
   margin-bottom: 3px;
-  background-image: url('Image file/drapeau-1.jpg');
+  background-image: url('Image file/acadian-flag-gif-1.gif');
   border-style: groove;
   border-color: brown;
   color: black;
@@ -15,14 +15,13 @@ h1{
 /* Background image */
 body{
     background-color: lightblue;
-    background-image: url('Image file/drapeau-1.jpg');  
+    background-image: url('Image file/acadian-flag-gif-1.gif');
 }
 
 /* Changed color of scroll bars */
 html{
     scrollbar-width: normal;
     scrollbar-color: red blue; 
-
 } 
 
 main{
@@ -79,7 +78,7 @@ button{
 }
 
 
-
+/* Grid of buttons */
 #section-100-buttons {
                      display: grid;
                      font-size: 35%;
@@ -88,6 +87,7 @@ button{
                      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
     
 }
+
 #section-200-buttons {
                      display: grid;
                      font-size: 33%;
@@ -96,6 +96,7 @@ button{
                      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
    
 }
+
 #section-300-buttons {
                      display: grid;
                      font-size: 33%;
@@ -104,6 +105,7 @@ button{
                      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
    
 }
+
 #section-400-buttons {
                      display: grid;
                      font-size: 33%;
@@ -112,6 +114,7 @@ button{
                      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
     
 }
+
 #section-500-buttons {
                      display: grid;
                      font-size: 33%;
@@ -120,6 +123,7 @@ button{
                      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
   
 }
+
 #section-600-buttons {
                      display: grid;
                      font-size: 33%;
@@ -128,6 +132,7 @@ button{
                      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
     
 }
+
 #section-700-buttons {
                      display: grid;
                      font-size: 33%;
@@ -136,6 +141,7 @@ button{
                      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
     
 }
+
 #section-800-buttons {
                      display: grid;
                      font-size: 35%;
@@ -144,6 +150,7 @@ button{
                      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
     
 }
+
 #section-900-buttons {
                      display: grid;
                      font-size: 33%;
@@ -152,6 +159,7 @@ button{
                      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     
 } 
+
 #section-1000-buttons {
                       display: grid;
                       font-size: 33%; 
@@ -161,9 +169,24 @@ button{
     
 }
 
+audio{
+  
+}
 
 
+/* #music{
+  text-align: right;
 
+ 
+
+
+}  */
+
+/* <!-- <div style="width:500px; margin:auto; position:relative;">
+    <audio controls style="width:100%;">
+       <source src="Rococo.MP3">This browser does not support the audio tag
+    </audio>
+</div> --> */
 
 
 

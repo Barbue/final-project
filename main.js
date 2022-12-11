@@ -124,6 +124,31 @@
     speechData();
 
 
+// let musicFileButton = document.querySelector('#music button')
+// let musicFile1 = document.querySelector('#tactac audio')
+
+
+
+
+// let pause = false
+
+
+// function playMusic (buttonQuerySelectorVariable, musicFile) {
+//     buttonQuerySelectorVariable.addEventListener('click', function(){
+
+//      musicFile.play()
+            
+           
+// console.log('Music files play');
+//     });
+//     // };
+// }
+// playMusic(musicFileButton, musicFile1)
+
+
+// let player = document.querySelector('audio');
+// player.style.alignSelf
+
 
 
 
