@@ -5,8 +5,7 @@
         console.log(data);
     let groupedData = _.groupBy(data, 'category');
         console.log(groupedData);
-      //console.log(groupedData.friendsAndLovers);
-      //console.log(groupedData.translation);
+      
 
 
     // categoryDataVariables
