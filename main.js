@@ -25,7 +25,7 @@
 
     let paragraph1 = document.querySelector('#figuresOfSpeech');
     let paragraph2 = document.querySelector('#translation');
-    let paragraph3 = document.querySelector('#audio');
+    
 
      // buttonQuerySelectorVariables for figures of speech categories:
 
