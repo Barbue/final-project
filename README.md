@@ -9,13 +9,8 @@ ten categories, each containing ten entries. To complement the entries, an audio
 
 * To listen to the corresponding audio file, simply look for and click on the appropriate category and entry number among the grid of buttons that appear directly below the figure of speech that appears on the screen.  It should be noted that the audio file buttons function independantly of the figures of speech, so that the user can listen to them at will to promote mastery of a given figure of speech.
 
-
-* 
-* 
-* 
-* 
-* 
-* 
+* Towards the bottom of the page there is a small French flag. Each color of the flag corresponds to an Acadian French song. To listen to each song, simply click on one of the colors.
+ 
 
 
 

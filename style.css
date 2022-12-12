@@ -1,4 +1,6 @@
 
+
+/* Main header */
 h1{
   border: solid 5px;
   text-align: center;
@@ -24,6 +26,7 @@ html{
     scrollbar-color: brown blue;
 } 
 
+/* Figures of Speech/Translations appear within */
 main{
     border-radius: 10px;
     width: auto;
@@ -38,6 +41,7 @@ main{
     border-style: groove;
 }  
 
+/* Contains figures of speech/translations */
 p{
  margin-bottom: 10px;
  text-align: center;
@@ -46,7 +50,7 @@ p{
 /* Scroll bar */
 .scroll-div{
            width: 103px;
-           height: 300px;
+           height: 355px;
            overflow: hidden;
            overflow-y: scroll;
            margin-left: -10px; 
@@ -62,6 +66,7 @@ p{
             overflow-y: scroll; 
 }
 
+/*  Settings for grid of buttons */
 #dog{
     margin-left: 120px;
     margin-top: 10px;
@@ -78,10 +83,28 @@ button{
 }
 
 
+
+/* Settings for audio controls elements */
+.music{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      margin-left: 104px;
+      margin-top: 120px;
+      margin-bottom: 0px;
+      position: relative;
+}  
+
+.files{
+      width: 5%; 
+ }
+
+
+
 /* Grid of buttons */
 #section-100-buttons {
                      display: grid;
-                     font-size: 35%;
+                     font-size: 33%;
                      border-style: groove;
                      border-color: brown;
                      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
@@ -144,7 +167,7 @@ button{
 
 #section-800-buttons {
                      display: grid;
-                     font-size: 35%;
+                     font-size: 33%;
                      border-style: groove;
                      border-color: brown;
                      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
@@ -170,53 +193,14 @@ button{
 }
 
 
- .music{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-left: 104px;
-    margin-top: 120px;
-    margin-bottom: 0px;
-    
-
  
-
-
-
-
-
-
-    
-}  
-
- .child{
-    
-width: 5%; 
- }
     
     
    
 
 
 
-/* .scroll-div1{
-    margin-top: 20px; 
-    width: auto;
-    margin-right: 11px;
-    height: 100px;
-    overflow: hidden;
-    overflow-y: scroll; 
-}
 
-#dog{
-margin-left: 120px;
-margin-top: 10px;
-margin-right: 0px;
-margin-bottom: 10px;
-width: auto;
-border-style: groove;
-border-color: brown; 
-} */
 
 
 
